@@ -36,4 +36,20 @@ body {
   body {
     background-color: #000;
   }
-}`;
+}
+/* Add some styles to fix input controls in Safari */
+input[type="date"], input[type="time"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px 0;
+}
+input[type="date"]:focus, input[type="time"]:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+`;

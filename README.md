@@ -10,10 +10,12 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Copy `.env.example` to `.env` (or `.env.development`) and set `EXPO_PUBLIC_API_URL` if you want to override the default Render backend.
+
+3. Start the app
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
 In the output, you'll find options to open the app in a
